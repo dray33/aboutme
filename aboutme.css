@@ -1,0 +1,101 @@
+body {
+  /*Typography decorations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif; 
+}
+
+.content-footer,
+.masthead-intro,
+.masthead-heading {
+ text-align: center; 
+ color: #E8AA0C;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image:url("https://download.unsplash.com/uploads/14129863345840df499fc/0165574c");
+ background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em 0;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 4em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family:"Gentium Book Basic", Georgia, serif;
+  color: #FF0000;
+font-weight: bold;
+font-size: 1.2em;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.p-color {
+  color: #FF1919;
+  font-weight: bold;
+}
+
+.content-footer {
+  background-size: cover;
+  background-color: #505050;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 4em 0;
+}
+
+a {
+  color: #D1A000;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+      padding: 3em 0;
+  }
+  .masthead-heading {
+      font-size: 3em;
+  }
+}
+
+
